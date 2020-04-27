@@ -2,10 +2,12 @@ package com.gentryx.todoapp.viewmodel.task
 
 import android.content.Context
 import android.content.SharedPreferences
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.gentryx.todoapp.model.local.AppPreferences
 import com.gentryx.todoapp.model.repository.EditTaskRepository
+import retrofit2.HttpException
 
 class TaskDetailViewModel : ViewModel() {
 
@@ -34,6 +36,12 @@ class TaskDetailViewModel : ViewModel() {
     }
 
     fun checkUserId() {
-        isEditable.value = userId.value == user_id
+        try {
+            isEditable.value = userId.value == user_id
+        } catch (httpException: HttpException) {
+            Log.e(TAG, httpException.toString())
+        } catch (exception: Exception) {
+            Log.e(TAG, exception.toString())
+        }
     }
 }

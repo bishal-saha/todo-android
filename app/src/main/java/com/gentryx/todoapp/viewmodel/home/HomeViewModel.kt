@@ -2,6 +2,7 @@ package com.gentryx.todoapp.viewmodel.home
 
 import android.content.Context
 import android.content.SharedPreferences
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
@@ -10,6 +11,7 @@ import com.gentryx.todoapp.model.local.AppPreferences
 import com.gentryx.todoapp.model.remote.Networking
 import com.gentryx.todoapp.model.remote.response.todo.TaskResponse
 import com.gentryx.todoapp.model.repository.TaskRespository
+import retrofit2.HttpException
 
 class HomeViewModel : ViewModel() {
 
@@ -32,12 +34,19 @@ class HomeViewModel : ViewModel() {
     }
 
     fun getAllTask() = liveData {
-        val data = taskRepository.getAllTask(token)
+        try {
+            val data = taskRepository.getAllTask(token)
 
-        if (data.code() == 200) {
-            taskList.postValue(data.body())
+            if (data.code() == 200) {
+                taskList.postValue(data.body())
+            }
+
+            emit(data)
+        } catch (httpException: HttpException) {
+            Log.e(TAG, httpException.toString())
+        } catch (exception: Exception) {
+            Log.e(TAG, exception.toString())
         }
 
-        emit(data)
     }
 }
