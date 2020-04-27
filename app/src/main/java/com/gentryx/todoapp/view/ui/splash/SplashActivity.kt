@@ -36,7 +36,6 @@ class SplashActivity : AppCompatActivity() {
         GeneralHelper.hideStatusBar(this)
 
         splashViewModel = ViewModelProvider(this).get(SplashViewModel::class.java)
-        splashViewModel.init(this)
 
         CoroutineScope(Dispatchers.IO).launch {
             checkNetwork()

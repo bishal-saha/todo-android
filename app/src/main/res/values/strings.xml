@@ -36,8 +36,10 @@
 
     <string name="btn_ok">OK</string>
     <string name="title_success_dialog">Success!</string>
+    <string name="title_unsuccessful_dialog">Un Successful!</string>
     <string name="title_error_dialog">Error!</string>
     <string name="msg_add_task_success">Task added successfully.</string>
+    <string name="msg_add_task_unsuccessful">Sorry! Something went wrong. Please try again.</string>
     <string name="alert_error_title">Ouch!</string>
     <string name="alert_error_message">There was an error! Please try again</string>
     <string name="alert_success_title">Great</string>
