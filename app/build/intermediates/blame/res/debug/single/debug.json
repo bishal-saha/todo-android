@@ -1,0 +1,350 @@
+[
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/layout_edit_profile_fragment.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/layout/edit_profile_fragment.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/layout_edit_task_fragment.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/layout/edit_task_fragment.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/menu_bottom_navigation.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/menu/bottom_navigation.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/font_roboto_regular.ttf.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/font/roboto_regular.ttf"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_heart.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-mdpi/ic_heart.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_people.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-anydpi/ic_people.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/navigation_navigation_base.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/navigation/navigation_base.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_people.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-mdpi/ic_people.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_add.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-hdpi/ic_add.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_people.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xxhdpi/ic_people.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_add.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-mdpi/ic_add.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_profile.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xxhdpi/ic_profile.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_add.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xhdpi/ic_add.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_edit.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-anydpi/ic_edit.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_add_task.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xhdpi/ic_add_task.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_assignment.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xxhdpi/ic_assignment.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/layout_toolbar.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/layout/toolbar.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_assignment.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-mdpi/ic_assignment.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_profile.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-hdpi/ic_profile.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_assignment.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xhdpi/ic_assignment.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_heart.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xxhdpi/ic_heart.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_heart.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xhdpi/ic_heart.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_assignment.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-hdpi/ic_assignment.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-v24_login_user_avatar.gif.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-v24/login_user_avatar.gif"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_confirm.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-hdpi/ic_confirm.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_profile.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-anydpi/ic_profile.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_profile.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-mdpi/ic_profile.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/layout_task_detail_fragment.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/layout/task_detail_fragment.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-v24_fishing_splash.gif.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-v24/fishing_splash.gif"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_add_task.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-anydpi/ic_add_task.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_confirm.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-anydpi/ic_confirm.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_heart.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-anydpi/ic_heart.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/layout_task_fragment.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/layout/task_fragment.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/layout_home_fragment.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/layout/home_fragment.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_home.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-mdpi/ic_home.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-v24_signup_user_avatar.gif.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-v24/signup_user_avatar.gif"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_edit.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xxhdpi/ic_edit.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/font_roboto_medium.ttf.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/font/roboto_medium.ttf"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_heart.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-hdpi/ic_heart.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_home.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-hdpi/ic_home.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_home.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xxhdpi/ic_home.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_add_task.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xxhdpi/ic_add_task.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_profile.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xhdpi/ic_profile.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/font_font_family.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/font/font_family.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_edit.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-mdpi/ic_edit.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/layout_activity_sign_up.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_camera.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xxhdpi/ic_camera.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_add.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-anydpi/ic_add.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/menu_profile_edit_menu.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/menu/profile_edit_menu.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_add_task.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-mdpi/ic_add_task.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_camera.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xhdpi/ic_camera.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_edit.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xhdpi/ic_edit.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_confirm.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-mdpi/ic_confirm.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_home.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xhdpi/ic_home.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_edit.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-hdpi/ic_edit.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_confirm.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xxhdpi/ic_confirm.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_people.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xhdpi/ic_people.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/layout_custom_task_list_view.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/layout/custom_task_list_view.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_people.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-hdpi/ic_people.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/font_roboto_bold.ttf.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/font/roboto_bold.ttf"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_camera.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-mdpi/ic_camera.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_add.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xxhdpi/ic_add.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_home.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-anydpi/ic_home.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/layout_profile_fragment.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/layout/profile_fragment.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_camera.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-hdpi/ic_camera.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_assignment.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-anydpi/ic_assignment.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_add_task.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-hdpi/ic_add_task.png"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_camera.xml.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-anydpi/ic_camera.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_confirm.png.flat",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/drawable-xhdpi/ic_confirm.png"
+    }
+]

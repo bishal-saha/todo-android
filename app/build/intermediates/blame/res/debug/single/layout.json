@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/home_fragment.xml",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/layout/home_fragment.xml"
+    },
+    {
+        "merged": "/mnt/server/android/_test_/ToDoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/custom_task_list_view.xml",
+        "source": "/mnt/server/android/_test_/ToDoApp/app/src/main/res/layout/custom_task_list_view.xml"
+    }
+]
