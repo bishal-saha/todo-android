@@ -3,6 +3,7 @@ package com.gentryx.todoapp.viewmodel.profile
 import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
+import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.liveData
@@ -11,6 +12,7 @@ import com.gentryx.todoapp.model.local.AppPreferences
 import com.gentryx.todoapp.model.remote.Networking
 import com.gentryx.todoapp.model.remote.response.profile.UserProfileResponse
 import com.gentryx.todoapp.model.repository.UserProfileRepository
+import retrofit2.HttpException
 
 class ProfileViewModel(application: Application) : AndroidViewModel(application) {
 
@@ -39,15 +41,22 @@ class ProfileViewModel(application: Application) : AndroidViewModel(application)
     }
 
     fun getUserProfile() = liveData {
-        val data = userProfileRepository.getUserProfile(token, userId)
+        try {
+            val data = userProfileRepository.getUserProfile(token, userId)
 
-        if (data.code() == 200) {
-            profile = data.body()!!
-            imageUrl.postValue(profile.profileImage)
+            if (data.code() == 200) {
+                profile = data.body()!!
+                imageUrl.postValue(profile.profileImage)
+            }
+
+            emit(profile)
+
+            loading.postValue(false)
+        } catch (httpException: HttpException) {
+            Log.e(TAG, httpException.toString())
+        } catch (exception: Exception) {
+            Log.e(TAG, exception.toString())
         }
 
-        emit(profile)
-
-        loading.postValue(false)
     }
 }

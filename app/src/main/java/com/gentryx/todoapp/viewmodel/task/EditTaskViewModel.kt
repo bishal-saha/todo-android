@@ -2,6 +2,7 @@ package com.gentryx.todoapp.viewmodel.task
 
 import android.content.Context
 import android.content.SharedPreferences
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
@@ -13,6 +14,7 @@ import com.gentryx.todoapp.model.repository.EditTaskRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import retrofit2.HttpException
 
 class EditTaskViewModel : ViewModel() {
 
@@ -50,22 +52,28 @@ class EditTaskViewModel : ViewModel() {
 
     fun editTask() {
         CoroutineScope(Dispatchers.IO).launch {
-            loading.postValue(true)
-            val data = editTaskRepository.editTask(token, EditTaskRequest(
-                id.value!!.toInt(),
-                user_id.value.toString(),
-                title.value.toString(),
-                body.value.toString(),
-                status.value.toString()
-            ))
+            try {
+                loading.postValue(true)
+                val data = editTaskRepository.editTask(token, EditTaskRequest(
+                    id.value!!.toInt(),
+                    user_id.value.toString(),
+                    title.value.toString(),
+                    body.value.toString(),
+                    status.value.toString()
+                ))
 
-            if (data.code() == 201) {
-                isSuccess.postValue(true)
-            } else {
-                isSuccess.postValue(false)
+                if (data.code() == 201) {
+                    isSuccess.postValue(true)
+                } else {
+                    isSuccess.postValue(false)
+                }
+
+                loading.postValue(false)
+            } catch (httpException: HttpException) {
+                Log.e(TAG, httpException.toString())
+            } catch (exception: Exception) {
+                Log.e(TAG, exception.toString())
             }
-
-            loading.postValue(false)
         }
     }
 }

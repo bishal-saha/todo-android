@@ -2,6 +2,7 @@ package com.gentryx.todoapp.viewmodel.auth
 
 import android.content.Context
 import android.content.SharedPreferences
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
 import com.gentryx.todoapp.BuildConfig
@@ -11,6 +12,7 @@ import com.gentryx.todoapp.model.remote.request.auth.LoginRequest
 import com.gentryx.todoapp.model.remote.response.auth.LoginResponse
 import com.gentryx.todoapp.model.repository.LoginRepository
 import kotlinx.coroutines.Dispatchers.IO
+import retrofit2.HttpException
 
 class LoginViewModel: ViewModel() {
 
@@ -30,9 +32,16 @@ class LoginViewModel: ViewModel() {
     }
 
     fun login(loginRequest: LoginRequest) = liveData(IO) {
-        val data = loginRepository.login(loginRequest)
+        try {
+            val data = loginRepository.login(loginRequest)
+            emit(data)
+        } catch (httpException: HttpException) {
+            Log.e(TAG, httpException.toString())
+        } catch (exception: Exception) {
+            Log.e(TAG, exception.toString())
+        }
 
-        emit(data)
+
     }
 
     fun saveUserDetails(loginResponse: LoginResponse) = liveData {
