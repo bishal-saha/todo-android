@@ -14,6 +14,7 @@ import kotlinx.android.synthetic.main.activity_login.*
 import org.jetbrains.anko.alert
 import org.jetbrains.anko.intentFor
 import org.jetbrains.anko.sdk27.coroutines.onClick
+import org.jetbrains.anko.support.v4.alert
 
 class LoginActivity : AppCompatActivity() {
 
@@ -28,11 +29,12 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         viewModel = ViewModelProvider(this).get(LoginViewModel::class.java)
-        viewModel.init(this)
 
         btn_login.onClick { prepareLogin() }
 
         tv_signup.onClick { launchSignUpActivity() }
+
+        observer()
     }
 
     private fun launchSignUpActivity() {
@@ -43,40 +45,39 @@ class LoginActivity : AppCompatActivity() {
         val email = txt_userId.text.toString()
         val password = txt_password.text.toString()
 
-        if (email.isEmpty()) {
-            alert {
-                isCancelable = false
-                title = getString(R.string.empty_email_title)
-                message = getString(R.string.empty_email_message)
-                positiveButton("OK") {
-                    it.dismiss()
-                }
-            }.show()
-        } else if (password.isEmpty()) {
-            alert {
-                isCancelable = false
-                title = getString(R.string.empty_password_title)
-                message = getString(R.string.empty_password_message)
-                positiveButton("OK") {
-                    it.dismiss()
-                }
-            }.show()
-        } else {
-            val login_request = LoginRequest(email, password)
-            login(login_request)
+        when {
+            email.isEmpty() -> {
+                alert {
+                    isCancelable = false
+                    title = getString(R.string.empty_email_title)
+                    message = getString(R.string.empty_email_message)
+                    positiveButton("OK") {
+                        it.dismiss()
+                    }
+                }.show()
+            }
+            password.isEmpty() -> {
+                alert {
+                    isCancelable = false
+                    title = getString(R.string.empty_password_title)
+                    message = getString(R.string.empty_password_message)
+                    positiveButton("OK") {
+                        it.dismiss()
+                    }
+                }.show()
+            }
+            else -> {
+                val loginRequest = LoginRequest(email, password)
+                login(loginRequest)
+            }
         }
     }
 
     private fun login(login_request: LoginRequest) {
 
         viewModel.login(login_request).observe(this, Observer {
-            if (it.code() == 200) {
-                val data = it.body()
-
-                data?.let { saveUserData(data) }
-                Log.d(TAG, "login successful")
-            } else {
-                Log.e(TAG, "error code: ${it.code()} error message: ${it.errorBody()}")
+            it?.let {
+                saveUserData(it)
             }
         })
 
@@ -89,5 +90,38 @@ class LoginActivity : AppCompatActivity() {
                 startActivity(intentFor<MainActivity>())
             }
         })
+    }
+
+    private fun observer() {
+        viewModel.isError.observe(this, Observer {
+            errorDialog(it)
+        })
+        viewModel.isSuccess.observe(this, Observer {
+            if (!it) {
+                unSuccessfulDialog()
+            }
+        })
+    }
+
+    private fun unSuccessfulDialog() {
+        alert {
+            title = getString(R.string.title_unsuccessful_dialog)
+            message = getString(R.string.msg_add_task_unsuccessful)
+            isCancelable = false
+            positiveButton(getString(R.string.btn_ok)) {dialog ->
+                dialog.dismiss()
+            }
+        }.show()
+    }
+
+    private fun errorDialog(errorMsg: String) {
+        alert {
+            title = getString(R.string.title_error_dialog)
+            message = errorMsg
+            isCancelable = false
+            positiveButton(getString(R.string.btn_ok)) {dialog ->
+                dialog.dismiss()
+            }
+        }.show()
     }
 }
