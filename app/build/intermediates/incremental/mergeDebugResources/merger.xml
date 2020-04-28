@@ -5625,7 +5625,7 @@
         <item>PENDING</item>
         <item>STARTED</item>
         <item>COMPLETED</item>
-    </string-array></file><file path="/mnt/server/android/_test_/ToDoApp/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    </string-array><string name="msg_sign_up_successful">Hurray! You have created a new account. Please login.</string><string name="title_successful_sign_up">Great!</string></file><file path="/mnt/server/android/_test_/ToDoApp/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
