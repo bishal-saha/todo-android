@@ -12,4 +12,5 @@ public final class BuildConfig {
   public static final String VERSION_NAME = "1.0";
   // Fields from build type: debug
   public static final String BASE_URL = "http://todo-laravel-api.com.development/api/";
+  public static final String PREF_NAME = "com.gentryx.todoapp.pref";
 }

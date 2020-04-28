@@ -1,7 +1,6 @@
 package com.gentryx.todoapp.view.ui.profile
 
 import android.os.Bundle
-import android.util.Log
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -16,7 +15,6 @@ import kotlinx.android.synthetic.main.profile_fragment.*
 class ProfileFragment : Fragment() {
 
     companion object {
-        fun newInstance() = ProfileFragment()
         const val TAG = "ProfileFragment"
     }
 

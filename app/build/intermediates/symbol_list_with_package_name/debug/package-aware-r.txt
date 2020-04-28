@@ -1825,6 +1825,7 @@ id password_toggle
 id pb_edit_profile
 id pb_edit_task
 id pb_profile
+id pb_sign_up
 id peekHeight
 id percent
 id pin
@@ -2225,6 +2226,8 @@ string login
 string message_camera_permission_denied
 string message_gallery_permission_denied
 string msg_add_task_success
+string msg_add_task_unsuccessful
+string msg_sign_up_successful
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_suffix
@@ -2289,6 +2292,8 @@ string title_choose_image_provider
 string title_error_dialog
 string title_gallery
 string title_success_dialog
+string title_successful_sign_up
+string title_unsuccessful_dialog
 string todo
 string ucrop_error_input_data_is_absent
 string ucrop_label_edit_photo

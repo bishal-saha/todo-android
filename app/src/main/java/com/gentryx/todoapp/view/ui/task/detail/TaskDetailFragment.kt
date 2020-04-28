@@ -25,21 +25,18 @@ class TaskDetailFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.task_detail_fragment, container, false)
-    }
+    ): View? = inflater.inflate(R.layout.task_detail_fragment, container, false)
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(TaskDetailViewModel::class.java)
-        viewModel.init(requireContext())
 
         val args = TaskDetailFragmentArgs.fromBundle(requireArguments())
         viewModel.dateTime.value = args.dateTime
         viewModel.title.value = args.title
         viewModel.body.value = args.body
         viewModel.status.value = args.status
-        viewModel.userId.value = args.userId
+        viewModel.userIdField.value = args.userId
         viewModel.bgColor.value = args.statusColor
         viewModel.id.value = args.id
 
@@ -73,7 +70,7 @@ class TaskDetailFragment : Fragment() {
         viewModel.status.observe(viewLifecycleOwner, Observer {
             tv_status.text = it
         })
-        viewModel.userId.observe(viewLifecycleOwner, Observer {
+        viewModel.userIdField.observe(viewLifecycleOwner, Observer {
             tv_user_id.text = it
         })
         viewModel.bgColor.observe(viewLifecycleOwner, Observer {
