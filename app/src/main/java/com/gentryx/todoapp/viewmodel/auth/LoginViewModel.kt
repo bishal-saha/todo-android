@@ -25,7 +25,7 @@ class LoginViewModel(application: Application) : AndroidViewModel(application) {
 
     private val networkService = Networking.create(BuildConfig.BASE_URL)
     private var loginRepository: LoginRepository
-    private var sharedPreferences = application.getSharedPreferences("com.gentryx.todoapp.prefs", Context.MODE_PRIVATE)
+    private var sharedPreferences = application.getSharedPreferences(BuildConfig.PREF_NAME, Context.MODE_PRIVATE)
     private var appPreferences: AppPreferences
     val loginResponse: MutableLiveData<LoginResponse> = MutableLiveData()
     val isSuccess: MutableLiveData<Boolean> = MutableLiveData()

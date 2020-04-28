@@ -26,7 +26,7 @@ class EditTaskViewModel(application: Application) : AndroidViewModel(application
 
     private val networkService = Networking.create(BuildConfig.BASE_URL)
     private var editTaskRepository: EditTaskRepository
-    private var sharedPreferences = application.getSharedPreferences("com.gentryx.todoapp.prefs", Context.MODE_PRIVATE)
+    private var sharedPreferences = application.getSharedPreferences(BuildConfig.PREF_NAME, Context.MODE_PRIVATE)
     private var appPreferences: AppPreferences
     private var token: String = ""
     val userId: MutableLiveData<Int> = MutableLiveData()
@@ -43,7 +43,6 @@ class EditTaskViewModel(application: Application) : AndroidViewModel(application
 
     init {
         editTaskRepository = EditTaskRepository(networkService)
-        sharedPreferences = application.getSharedPreferences("com.gentryx.todoapp.prefs", Context.MODE_PRIVATE)
         appPreferences = AppPreferences(sharedPreferences)
         token = appPreferences.getAccessToken().toString()
         userId.value = appPreferences.getUserId()
