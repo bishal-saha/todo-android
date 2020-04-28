@@ -106,7 +106,7 @@ class LoginActivity : AppCompatActivity() {
     private fun unSuccessfulDialog() {
         alert {
             title = getString(R.string.title_unsuccessful_dialog)
-            message = getString(R.string.msg_add_task_unsuccessful)
+            message = viewModel.errorMsg.value.toString()
             isCancelable = false
             positiveButton(getString(R.string.btn_ok)) {dialog ->
                 dialog.dismiss()

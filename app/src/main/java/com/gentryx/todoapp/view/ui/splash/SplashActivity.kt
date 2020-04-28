@@ -1,17 +1,14 @@
 package com.gentryx.todoapp.view.ui.splash
 
-import android.content.Context
 import android.content.Intent
-import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.Settings
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.gentryx.todoapp.R
-import com.gentryx.todoapp.model.local.AppPreferences
 import com.gentryx.todoapp.util.GeneralHelper
-import com.gentryx.todoapp.util.NetworkHelper
+import com.gentryx.todoapp.util.network.NetworkHelper
 import com.gentryx.todoapp.view.ui.auth.LoginActivity
 import com.gentryx.todoapp.view.ui.main.MainActivity
 import com.gentryx.todoapp.viewmodel.splash.SplashViewModel

@@ -14,6 +14,7 @@ import com.gentryx.todoapp.model.remote.Networking
 import com.gentryx.todoapp.model.remote.request.auth.LoginRequest
 import com.gentryx.todoapp.model.remote.response.auth.LoginResponse
 import com.gentryx.todoapp.model.repository.LoginRepository
+import com.gentryx.todoapp.util.network.NetworkHelper
 import kotlinx.coroutines.Dispatchers.IO
 import retrofit2.HttpException
 
@@ -30,6 +31,7 @@ class LoginViewModel(application: Application) : AndroidViewModel(application) {
     val loginResponse: MutableLiveData<LoginResponse> = MutableLiveData()
     val isSuccess: MutableLiveData<Boolean> = MutableLiveData()
     val isError: MutableLiveData<String> = MutableLiveData()
+    val errorMsg: MutableLiveData<String> = MutableLiveData()
 
     init {
         appPreferences = AppPreferences(sharedPreferences)
@@ -44,6 +46,8 @@ class LoginViewModel(application: Application) : AndroidViewModel(application) {
                 isSuccess.postValue(false)
                 emit(loginResponse.value)
             } else {
+                val error = NetworkHelper.handleNetworkError(data)
+                errorMsg.postValue(error.message)
                 isSuccess.postValue(false)
             }
         } catch (httpException: HttpException) {
