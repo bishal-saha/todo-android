@@ -13,7 +13,6 @@ import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
 
 import com.gentryx.todoapp.R
-import com.gentryx.todoapp.view.ui.task.edit.EditTaskFragmentDirections
 import com.gentryx.todoapp.viewmodel.profile.EditProfileViewModel
 import com.github.dhaval2404.imagepicker.ImagePicker
 import kotlinx.android.synthetic.main.edit_profile_fragment.*
@@ -22,7 +21,6 @@ import org.jetbrains.anko.support.v4.alert
 class EditProfileFragment : Fragment() {
 
     companion object {
-        fun newInstance() = EditProfileFragment()
         const val TAG = "EditProfileFragment"
     }
 
@@ -31,9 +29,7 @@ class EditProfileFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.edit_profile_fragment, container, false)
-    }
+    ): View? = inflater.inflate(R.layout.edit_profile_fragment, container, false)
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
