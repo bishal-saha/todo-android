@@ -2300,7 +2300,11 @@ int string ucrop_label_original 0x7f12009b
 int string ucrop_menu_crop 0x7f12009c
 int string ucrop_mutate_exception_hint 0x7f12009d
 int string user_name 0x7f12009e
-int string zero 0x7f12009f
+int string validation_confirm_password_failed 0x7f12009f
+int string validation_email_failed 0x7f1200a0
+int string validation_password_failed 0x7f1200a1
+int string validator_title 0x7f1200a2
+int string zero 0x7f1200a3
 int style AlertDialog_AppCompat 0x7f130000
 int style AlertDialog_AppCompat_Light 0x7f130001
 int style Animation_AppCompat_Dialog 0x7f130002

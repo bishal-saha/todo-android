@@ -5625,7 +5625,7 @@
         <item>PENDING</item>
         <item>STARTED</item>
         <item>COMPLETED</item>
-    </string-array></file><file path="/mnt/server/android/_test_/ToDoApp/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    </string-array><string name="validator_title">Validation Failed!</string><string name="validation_password_failed">Password validation failed! Please check your password.</string><string name="validation_email_failed">Email validation failed! Please check your email address.</string><string name="validation_confirm_password_failed">Confirm password validation failed! Please check your confirm password.</string></file><file path="/mnt/server/android/_test_/ToDoApp/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>

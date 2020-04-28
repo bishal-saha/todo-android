@@ -8,6 +8,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.gentryx.todoapp.R
 import com.gentryx.todoapp.model.remote.request.auth.LoginRequest
 import com.gentryx.todoapp.model.remote.response.auth.LoginResponse
+import com.gentryx.todoapp.util.Validator
 import com.gentryx.todoapp.view.ui.main.MainActivity
 import com.gentryx.todoapp.viewmodel.auth.LoginViewModel
 import kotlinx.android.synthetic.main.activity_login.*
@@ -45,6 +46,29 @@ class LoginActivity : AppCompatActivity() {
         val email = txt_userId.text.toString()
         val password = txt_password.text.toString()
 
+        if (!Validator.validateEmail(email)) {
+            alert {
+                isCancelable = false
+                title = getString(R.string.validator_title)
+                message = getString(R.string.validation_email_failed)
+                positiveButton("OK") {
+                    it.dismiss()
+                }
+            }.show()
+        } else if (!Validator.validatePassword(password)) {
+            alert {
+                isCancelable = false
+                title = getString(R.string.validator_title)
+                message = getString(R.string.validation_password_failed)
+                positiveButton("OK") {
+                    it.dismiss()
+                }
+            }.show()
+        } else {
+            val loginRequest = LoginRequest(email, password)
+            login(loginRequest)
+        }
+        /*
         when {
             email.isEmpty() -> {
                 alert {
@@ -71,6 +95,7 @@ class LoginActivity : AppCompatActivity() {
                 login(loginRequest)
             }
         }
+        */
     }
 
     private fun login(login_request: LoginRequest) {
