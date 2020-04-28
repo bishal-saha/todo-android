@@ -23,7 +23,7 @@ class TaskViewModel(application: Application) : AndroidViewModel(application) {
 
     private val networkService = Networking.create(BuildConfig.BASE_URL)
     private var addTaskRepository: AddTaskRepository
-    private var sharedPreferences = application.getSharedPreferences("com.gentryx.todoapp.prefs", Context.MODE_PRIVATE)
+    private var sharedPreferences = application.getSharedPreferences(BuildConfig.PREF_NAME, Context.MODE_PRIVATE)
     private var appPreferences: AppPreferences
     private var token: String = ""
     val userId: MutableLiveData<Int> = MutableLiveData()

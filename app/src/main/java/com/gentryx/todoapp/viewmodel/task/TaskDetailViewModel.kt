@@ -7,6 +7,7 @@ import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.gentryx.todoapp.BuildConfig
 import com.gentryx.todoapp.model.local.AppPreferences
 import com.gentryx.todoapp.model.repository.EditTaskRepository
 import retrofit2.HttpException
@@ -17,7 +18,7 @@ class TaskDetailViewModel(application: Application) : AndroidViewModel(applicati
         const val TAG = "TaskDetailViewModel"
     }
 
-    private var sharedPreferences = application.getSharedPreferences("com.gentryx.todoapp.prefs", Context.MODE_PRIVATE)
+    private var sharedPreferences = application.getSharedPreferences(BuildConfig.PREF_NAME, Context.MODE_PRIVATE)
     private var appPreferences: AppPreferences
     private var userId: String
 
